@@ -1,0 +1,1 @@
+class DecryptionException implements Exception {}

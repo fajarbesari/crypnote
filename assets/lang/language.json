@@ -1,0 +1,61 @@
+{
+  "language": [
+    {
+      "id": "english",
+      "flag": "en",
+      "welcome": "Welcome to Crypnote",
+      "spontanious": "Spontanious matter now !",
+      "signin": "Sign in with Username",
+      "username": "Username",
+      "password": "Password",
+      "loginbutton": "Login",
+      "createaccount": "Get going crypting",
+      "policy": "Privacy Policy 2026",
+      "applicationName": "Crypnote",
+      "applicationVersion": "0.1",
+      "applicationLegalese": "mt-teritory-license",
+      "errorPasswordValidation": "Password must contains equals or more than 8 characters",
+      "authenticationExceptionMessage": "Authentication failed",
+      "register": "Register with Username",
+      "registerbutton": "Register",
+      "emptyUsernameValidation": "Username cannot be left blank",
+      "charUsernameValidation": "Username must be at least 5 characters long",
+      "emptyPasswordValidation": "Password cannot be left blank",
+      "charPasswordValidation": "Password must be at least 8 characters long",
+      "registerNow" : "Don't have an account? Sign up now",
+      "registerError" : "Unable to register, Please try again"
+    },
+    {
+      "id": "france",
+      "flag": "fr",
+      "welcome": "Bienvenue sur Crypnote",
+      "spontanious": "Affaire spontanée maintenant !",
+      "signin": "Se connecter avec un nom d'utilisateur",
+      "username": "Nom d'utilisateur",
+      "password": "Mot de passe",
+      "loginbutton": "Connexion",
+      "createaccount": "Commencer le chiffrement",
+      "policy": "Politique de confidentialité 2026",
+      "applicationName": "Crypnote",
+      "applicationVersion": "0.1",
+      "applicationLegalese": "licence-mt-territory",
+      "errorPasswordValidation": "Le mot de passe doit comporter au moins 8 caractères",
+      "authenticationExceptionMessage": "Échec de l'authentification",
+      "register": "S'inscrire avec un nom d'utilisateur",
+      "registerbutton": "S'inscrire",
+      "emptyUsernameValidation": "Le nom d'utilisateur ne doit pas être vide",
+      "charUsernameValidation": "Le nom d'utilisateur doit comporter au moins 5 caractères",
+      "emptyPasswordValidation": "Le mot de passe ne peut pas être vide",
+      "charPasswordValidation": "Le mot de passe doit comporter au moins 8 caractères",
+      "registerNow" : "Vous n'avez pas encore de compte? Inscrivez-vous dès maintenant",
+      "registerError" : "Impossible de s'inscrire, réessayez"
+    }
+  ],
+  "crypnote": 
+    {
+      "applicationName": "Crypnote",
+      "applicationVersion": "0.1",
+      "applicationLegalese": "Mindsoulness technology teritory"
+    }
+  
+}

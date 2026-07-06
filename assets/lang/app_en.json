@@ -1,0 +1,571 @@
+{
+  "id" : "en",
+  "@@locale": "en",
+  "numberargument": "{num}",
+  "@numberargument": {
+    "description": "for integer number",
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
+  "stringargument": "{string}",
+  "@stringargument": {
+    "description": "for string argument",
+    "placeholders": {
+      "string": {
+        "type": "String"
+      }
+    }
+  },
+  "welcome": "Welcome to Crypnote",
+  "@welcome": {
+    "description": "headline login text"
+  },
+  "spontanious": "a note with an encryption",
+  "@spontanious": {
+    "description": "label login text"
+  },
+  "signin": "Sign in with Username",
+  "@signin": {
+    "description": "title login form"
+  },
+  "username": "Username",
+  "@username": {
+    "description": "label username field"
+  },
+  "password": "Password",
+  "@password": {
+    "description": "label password field"
+  },
+  "loginbutton": "Login",
+  "@loginbutton": {
+    "description": "label login button"
+  },
+  "createaccount": "Get going crypting",
+  "@createaccount": {
+    "description": "label navigate text button register"
+  },
+  "policy": "Privacy Policy 2026",
+  "@policy": {
+    "description": "label navigate privacy policy"
+  },
+  "applicationName": "Crypnote",
+  "@applicationName": {
+    "description": "label application name"
+  },
+  "applicationVersion": "0.1",
+  "@applicationVersion": {
+    "description": "label application version"
+  },
+  "applicationLegalese": "mt-teritory-license",
+  "@applicationLegalese": {
+    "description": "label legale and lisence"
+  },
+  "errorPasswordValidation": "Password must contains equals or more than 8 characters",
+  "@errorPasswordValidation": {
+    "description": "label error password validation"
+  },
+  "authenticationsuccessful": "Authentication succesfull",
+  "@authenticationsuccessful": {
+    "description": "label authentication successful"
+  },
+  "authenticationExceptionMessage": "Authentication failed",
+  "@authenticationExceptionMessage": {
+    "description": "label authentication failed"
+  },
+  "register": "Register with Username",
+  "@register": {
+    "description": "title register form"
+  },
+  "registerheadline" : "begin to create an encryption note",
+  "@registerheadline": {"description": "headline text for register"},
+  "registertitle" : "which anyone couldn't see !",
+  "@registertitle": {"description": "title text for register title"},
+  "registerbutton": "Register",
+  "@registerbutton": {
+    "description": "label text register button"
+  },
+  "emptyUsernameValidation": "Username cannot be left blank",
+  "@emptyUsernameValidation": {
+    "description": "label empty username validatin"
+  },
+  "charUsernameValidation": "Username must be at least 5 characters long",
+  "@charUsernameValidation": {
+    "description": "label 5 chars username validation"
+  },
+  "emptyPasswordValidation": "Password cannot be left blank",
+  "@emptyPasswordValidation": {
+    "description": "label empty password validation"
+  },
+  "charPasswordValidation": "Password must be at least 8 characters long",
+  "@charPasswordValidation": {
+    "description": "label 8 chars password validation"
+  },
+  "registerNow": "Don't have an account? Sign up now",
+  "@registerNow": {
+    "description": "label text navigate button register"
+  },
+  "registersuccessful": "register successful",
+  "@registersuccessful": {
+    "description": "label text for register successful"
+  },
+  "registerfailed": "Unable to register, Please try again",
+  "@registerfailed": {
+    "description": "label register failed"
+  },
+  "setuppindecryption": "set up pin decryption !",
+  "@setuppindecryption": {
+    "description": "title pin set up decryption"
+  },
+  "createpinbutton": "create",
+  "@createpinbutton": {
+    "description": "label button navigate create pin"
+  },
+  "pincreatesuccessful": "pin successful created",
+  "@pincreatesuccessful": {
+    "description": "label text when pin created successfuly"
+  },
+  "pincreatedfailed": "pin creation failed, required relogged in !",
+  "@pincreatedfailed": {
+    "description": "label text when the creation of pin get fails"
+  },
+  "greetingday": "good {date}",
+  "@greetingday": {
+    "description": "greeting with day sessions",
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "Hms"
+      }
+    }
+  },
+  "clock": "{date}",
+  "@clock": {
+    "description": "hms system with day session of am/pm",
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "Hms"
+      }
+    }
+  },
+  "userloggedin": "{username}",
+  "@userloggedin": {
+    "description": "label username of logged in user",
+    "placeholders": {
+      "username": {
+        "type": "String",
+        "example": "john doe"
+      }
+    }
+  },
+  "dashboard": "dashboard",
+  "@dashboard": {
+    "description": "label text dashboard"
+  },
+  "totalDashboardTitle": "total",
+  "@totalDashboardTitle": {
+    "description": "title dashboard for total amount crypnote created"
+  },
+  "totalDashboardLabel": "crypnote amount since the account was created",
+  "@totalDashboardLabel": {
+    "description": "label text for total amount"
+  },
+  "waitingDashboardTitle": "waiting",
+  "@waitingDashboardTitle": {
+    "description": "title dashboard for total amount of schedule crypnote created"
+  },
+  "waitingDashboardLabel": "for opened on the elapsed time",
+  "@waitingDashboardLabel": {
+    "description": "label text for schdule crypnote created"
+  },
+  "deletedDashboardTitle": "deleted",
+  "@deletedDashboardTitle": {
+    "description": "title dashboard for total amount of deleted crypnote"
+  },
+  "deletedDashboardLabel": "recovable crypnote after deletation",
+  "@deletedDashboardLabel": {
+    "description": "label text for deleted crypnote created"
+  },
+  "importanceDashboardTitle": "importance",
+  "@importanceDashboardTitle": {
+    "description": "title dashboard for total amount of important crypnote"
+  },
+  "importanceDashboardLabel": "the crypnote highest aware-priority",
+  "@importanceDashboardLabel": {
+    "description": "label text for important crypnote created"
+  },
+  "createpininformation": "in required for decryption to achive sustainable restriction approach",
+  "@createpininformation": {
+    "description": "label text to inform when create pin decryption"
+  },
+  "erroremptypinvalidation": "pin could not be empty",
+  "@erroremptypinvalidation": {
+    "description": "label text error empty pin validation"
+  },
+  "errorcharspinvalidation": "pin must be at least 7 characters and more",
+  "@errorcharspinvalidation": {
+    "description": "label text error chars pin validation"
+  },
+  "encryption": "encryption",
+  "@encryption": {
+    "description": "label text encryption"
+  },
+  "createcrypnote": "create",
+  "@createcrypnote": {
+    "description": "label text navigate create crypnote"
+  },
+  "decryptionschedulenonactive": "Decryption Schedule",
+  "@decryptionschedulenonactive": {
+    "description": "label text when decryption schedule omited"
+  },
+  "decryptionscheduleactive": "Decryption Schedule at {week}, {day} {month} {year} {hms}",
+  "@decryptionscheduleactive": {
+    "description": "label text when decryption schedule emited",
+    "placeholders": {
+      "week": {
+        "type": "DateTime",
+        "format": "EEEE"
+      },
+      "day": {
+        "type": "DateTime",
+        "format": "d"
+      },
+      "month": {
+        "type": "DateTime",
+        "format": "MMM"
+      },
+      "year": {
+        "type": "DateTime",
+        "format": "y"
+      },
+      "hms": {
+        "type": "DateTime",
+        "format": "Hms"
+      }
+    }
+  },
+  "importancelevel": "importance level",
+  "@importancelevel": {
+    "description": "label for importance level on create crypnote"
+  },
+  "encrytionbutton": "encryption",
+  "@encrytionbutton": {
+    "description": "label for create encryption button"
+  },
+  "encryptionsuccessful": "encryption successful",
+  "@encryptionsuccessful": {
+    "description": "label text when create encryption successful"
+  },
+  "encryptionfailed": "encryption failed, required relogged in !",
+  "@encryptionfailed": {
+    "description": "label text when create encrption get fails"
+  },
+  "encryptioncollectionitemdeleteconfirmationtitle": "are you sure want to delete ?",
+  "@encryptioncollectionitemdeleteconfirmationtitle": {
+    "description": "title text for deletion collection item confirmation"
+  },
+  "encryptioncollectionitemdeletionaccepted": "yes",
+  "@encryptioncollectionitemdeletionaccepted": {
+    "description": "label text for the collection item accepted deletation"
+  },
+  "emptycollection": "there are no encryption have been made",
+  "encryptioncollectionitemdeletiondeclined": "no",
+  "@encryptioncollectionitemdeletiondeclined": {
+    "description": "label text for the collection item declined deletation"
+  },
+  "@emptycollection": {
+    "description": "label when collection on empty state"
+  },
+  "encryptioncollectionitemlatestdecryptiontitle": "latest decryption at",
+  "@encryptioncollectionitemlatestdecryptiontitle": {
+    "description": "title text for encryption collection item"
+  },
+  "encryptioncollectionitemlatestdecryptiondatestamp": "{week}, {d} {mmm} {y}",
+  "@encryptioncollectionitemlatestdecryptiondatestamp": {
+    "description": "label text for latest decryption on collection item",
+    "placeholders": {
+      "week": {
+        "type": "DateTime",
+        "format": "EEEE"
+      },
+      "d": {
+        "type": "DateTime",
+        "format": "d"
+      },
+      "mmm": {
+        "type": "DateTime",
+        "format": "MMM"
+      },
+      "y": {
+        "type": "DateTime",
+        "format": "y"
+      }
+    }
+  },
+  "recycleitemdeletedtitle": "deleted at",
+  "@recycleitemdeletedtitle": {
+    "description": "label text for the deleted item in recycle"
+  },
+  "recycledeleteddatestamp": "{week}, {d} {mmm} {y}",
+  "@recycledeleteddatestamp": {
+    "description": "label text date stamp for the deleted item in the recycle",
+    "placeholders": {
+      "week": {
+        "type": "DateTime",
+        "format": "EEEE"
+      },
+      "d": {
+        "type": "DateTime",
+        "format": "d"
+      },
+      "mmm": {
+        "type": "DateTime",
+        "format": "MMM"
+      },
+      "y": {
+        "type": "DateTime",
+        "format": "y"
+      }
+    }
+  },
+  "recycledestroytooltip": "destroy",
+  "@recycledestroytooltip": {
+    "description": "label text for tooltip destroy in recycle items"
+  },
+  "recyclerestoretooltip" : "restore",
+  "@recyclerestoretooltip": {"description": "label text for tooltip restore in recycle items"},
+  "emptyrecycle": "there are no encryption have been recycled",
+  "@emptyrecycle": {
+    "description": "label when recycled collection on empty state"
+  },
+  "profile": "profile",
+  "@profile": {
+    "description": "label text for profile"
+  },
+  "yours": "yours",
+  "@yours": {
+    "description": "title text for profile form"
+  },
+  "usernameprofile": "username",
+  "@usernameprofile": {
+    "description": "label text for username on profile form"
+  },
+  "firstnameprofile": "first name",
+  "@firstnameprofile": {
+    "description": "label text for firstname on profile form"
+  },
+  "lastnameprofile": "last name",
+  "@lastnameprofile": {
+    "description": "label text for lastname on profile form"
+  },
+  "preferences": "preferences",
+  "@preferences": {
+    "description": "title text for preferences form"
+  },
+  "algorithmpreferenceslabel": "algorithm",
+  "@algorithmpreferenceslabel": {
+    "description": "label text for algorithm on preferences form"
+  },
+  "algoritmpreferences": "{algorithm}",
+  "@algoritmpreferences": {
+    "description": "label text for choosen algorithm",
+    "placeholders": {
+      "algorithm": {
+        "type": "String",
+        "example": "aesgcm"
+      }
+    }
+  },
+  "secretkeypreferenceslabel": "secret key",
+  "@secretkeypreferenceslabel": {
+    "description": "label text for secret key on preferences form"
+  },
+  "secretkeypreferences": "{secretkey}",
+  "@secretkeypreferences": {
+    "description": "label for choosen secret key",
+    "placeholders": {
+      "secretkey": {
+        "type": "String",
+        "example": "HKKHKjhkhjGHGF7H0906UYf"
+      }
+    }
+  },
+  "thememodepreferenceslabel": "theme mode",
+  "@thememodepreferenceslabel": {
+    "description": "label text for theme mode on preferences form"
+  },
+  "thememodepreferences": "{thememode}",
+  "@thememodepreferences": {
+    "description": "label text for choosen theme mode",
+    "placeholders": {
+      "thememode": {
+        "type": "String",
+        "example": "light"
+      }
+    }
+  },
+  "modifyprofilepopmenu": "modify profile",
+  "@modifyprofilepopmenu": {
+    "description": "label text for modify profile on pop menu"
+  },
+  "changeencryptorpopmenu": "change encryptor",
+  "@changeencryptorpopmenu": {
+    "description": "label text for change encryptor on pop menu"
+  },
+  "aboutpopmenu": "about",
+  "@aboutpopmenu": {
+    "description": "label text for about on pop menu"
+  },
+  "logoutpopmenu": "logout",
+  "@logoutpopmenu": {
+    "description": "label text for logout on pop menu"
+  },
+  "modifyprofiletitle": "modify profile",
+  "@modifyprofiletitle": {
+    "description": "title text for modify profile"
+  },
+  "newusername": "new username",
+  "@newusername": {
+    "description": "label text for new username field"
+  },
+  "newfirstname": "new first name",
+  "@newfirstname": {
+    "description": "label text for new first name field"
+  },
+  "newlastname": "new last name",
+  "@newlastname": {
+    "description": "label text for last name field"
+  },
+  "modifyusernameinformation": "there is no exceptional innovocation to modify username unless evert events ahead could be understanable mistake",
+  "@modifyusernameinformation": {
+    "description": "label text for modify username information"
+  },
+  "modifyencryptortitle": "modify encryptor",
+  "@modifyencryptortitle": {
+    "description": "title text for modify encryptor"
+  },
+  "modifyencryptoralgorithmselected": "{algorithm}",
+  "@modifyencryptoralgorithmselected": {
+    "description": "label text for algorithm selected",
+    "placeholders": {
+      "algorithm": {
+        "type": "String",
+        "example": "chacha20"
+      }
+    }
+  },
+  "modifyencryptoralgorithmdescriptionselected": "{algorithm}",
+  "@modifyencryptoralgorithmdescriptionselected": {
+    "description": "decription for the chosen algorithm",
+    "placeholders": {
+      "algorithm": {
+        "type": "String",
+        "example": "aes-gcm is an operating mode that combine encryption and authenticatoin into a single process"
+      }
+    }
+  },
+  "modifysecreykeyinformation": "for maximize the security, considering to generate new secret key !",
+  "@modifysecreykeyinformation": {
+    "description": "label text for generate secret key information"
+  },
+  "logoutconfirmation": "are you sure to logged out ?",
+  "@logoutconfirmation": {
+    "description": "label text for log out confirmation"
+  },
+  "logoutconfirmationaccepted": "yes",
+  "@logoutconfirmationaccepted": {
+    "description": "label text for log out accepted confirmation"
+  },
+  "logoutconfirmationdeclined": "no",
+  "@logoutconfirmationdeclined": {
+    "description": "label text for log out declined confirmation"
+  },
+  "nearestdecryption": "nearest decryption",
+  "@nearestdecryption": {
+    "description": "title text for nearest decryption"
+  },
+  "nearestdecryptionhoursremaining": "hours remaining",
+  "@nearestdecryptionhoursremaining": {
+    "description": "label text for nearest decryption"
+  },
+  "nearesthourscountdown": "{time}",
+  "@nearesthourscountdown": {
+    "description": "label text for hours countdown",
+    "placeholders": {
+      "time": {
+        "type": "String",
+        "example": "HH : MM : SS"
+      }
+    }
+  },
+  "nearestdecryptionsheduleat": "on {week}, {d} {MMM} {yyy}",
+  "@nearestdecryptionsheduleat": {
+    "placeholders": {
+      "week": {
+        "type": "DateTime",
+        "format": "EEEE"
+      },
+      "d": {
+        "type": "DateTime",
+        "format": "d"
+      },
+      "MMM": {
+        "type": "DateTime",
+        "format": "MMM"
+      },
+      "yyy": {
+        "type": "DateTime",
+        "format": "y"
+      }
+    }
+  },
+  "latestdecyption": "latest decryption",
+  "@latestdecyption": {
+    "description": "title text for latest decryption"
+  },
+  "latestdecryptiondatestamp": "{week}, {d} {mmm} {yyy}",
+  "@latestdecryptiondatestamp": {
+    "description": "label text for latest decryption date stamp",
+    "placeholders": {
+      "week": {
+        "type": "DateTime",
+        "format": "EEEE"
+      },
+      "d": {
+        "type": "DateTime",
+        "format": "d"
+      },
+      "mmm": {
+        "type": "DateTime",
+        "format": "MMM"
+      },
+      "yyy": {
+        "type": "DateTime",
+        "format": "y"
+      }
+    }
+  },
+  "latestdecryptionhours": "{hms}",
+  "@latestdecryptionhours": {
+    "description": "label text for time stamp",
+    "placeholders": {
+      "hms": {
+        "type": "DateTime",
+        "format": "Hms"
+      }
+    }
+  },
+  "latestdecryptioncodecrypt": "codecrypt {code}",
+  "@latestdecryptioncodecrypt": {
+    "description": "label text for latest decryption codecrypt",
+    "placeholders": {
+      "code": {
+        "type": "String",
+        "example": "356"
+      }
+    }
+  }
+}
